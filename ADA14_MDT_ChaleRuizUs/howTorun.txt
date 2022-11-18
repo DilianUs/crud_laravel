@@ -1,0 +1,9 @@
+1.-Requiere tener instalado node y laravel(para comando de contruccion de la app), ademas de xammp
+2.-Activar el server de xamp y el sql
+3.-Crear la base de datos en phpmyadmin con el mismo nombre que el del archivo sql
+4.-Dentro de la carpeta del proyecto abrir terminar cmd
+5.-Ejecutar comando:npm install && npm run dev(esto construye la app)
+6.-Ejecutar en una terminal diferente el comando:php artisan serve
+7.-Copiar la url que se genera en el comando anterior y agregar /register para crear nuevo usuario
+8.-Usar /products para ir al crud de la base de datos
+(recuerde que el proyecto debe estar dentro de htdocs ya que utilizamos xammp)
